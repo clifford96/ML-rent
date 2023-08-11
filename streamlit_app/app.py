@@ -4,7 +4,6 @@ import os
 import joblib
 from sklearn.preprocessing import OneHotEncoder
 
-
 model_file_path_catboost = os.path.join(os.path.dirname(__file__), 'catboost_model.joblib')
 
 if os.path.exists(model_file_path_catboost):
